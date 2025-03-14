@@ -34,7 +34,7 @@ jobs:
       - name: Upload do site para o GitHub Pages
         uses: actions/upload-pages-artifact@v3
         with:
-          path: '/dist'  # 🔴 Altere se o build estiver em outra pasta
+          path: '/dist/assets'  # 🔴 Altere se o build estiver em outra pasta
 
       - name: Fazer deploy para o GitHub Pages
         id: deployment
