@@ -15,10 +15,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repositório
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
       - name: Configurar GitHub Pages
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v2
 
       - name: Instalar Node.js
         uses: actions/setup-node@v3
@@ -32,9 +32,9 @@ jobs:
         run: npm run build
 
       - name: Upload do site para o GitHub Pages
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v2
         with:
-          path: './'  # 🔴 Altere se o build estiver em outra pasta
+          path: '/'  # 🔴 Altere se o build estiver em outra pasta
 
       - name: Fazer deploy para o GitHub Pages
         id: deployment
