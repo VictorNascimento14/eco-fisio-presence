@@ -7,7 +7,7 @@ import { componentTagger } from "lovable-tagger";
 export default defineConfig(({ mode }) => ({
 
   server: { 
-    base: 'https://victornascimento14.github.io/eco-fisio-presence/',  
+    base: './',  
     host: "::",
     port: 8080,
   },
