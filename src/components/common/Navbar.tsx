@@ -20,6 +20,10 @@ const Navbar = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
 
+  const handleNavLinkClick = () => {
+    setIsMobileMenuOpen(false);
+  };
+
   return (
     <header
       className={cn(
@@ -41,6 +45,7 @@ const Navbar = () => {
               key={item}
               href={`#${item.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')}`}
               className="font-medium text-therapist-800 hover:text-therapist-600 transition-colors"
+              onClick={handleNavLinkClick}
             >
               {item}
             </a>
@@ -70,7 +75,7 @@ const Navbar = () => {
               key={item}
               href={`#${item.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')}`}
               className="font-medium text-xl text-therapist-800 hover:text-therapist-600 transition-colors"
-              onClick={() => setIsMobileMenuOpen(false)}
+              onClick={handleNavLinkClick}
             >
               {item}
             </a>
