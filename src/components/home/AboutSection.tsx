@@ -1,7 +1,7 @@
 
 import { Award, Calendar, GraduationCap, Users } from 'lucide-react';
 
-const About = () => {
+const AboutSection = () => {
   return (
     <section id="sobre" className="section-container bg-therapist-50/50">
       <div className="flex flex-col lg:flex-row gap-12 items-center">
@@ -94,4 +94,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AboutSection;

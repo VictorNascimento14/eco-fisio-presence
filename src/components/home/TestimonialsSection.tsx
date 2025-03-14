@@ -41,7 +41,7 @@ const testimonials = [
   }
 ];
 
-const Testimonials = () => {
+const TestimonialsSection = () => {
   const [current, setCurrent] = useState(0);
   const [autoplay, setAutoplay] = useState(true);
   const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -169,4 +169,4 @@ const Testimonials = () => {
   );
 };
 
-export default Testimonials;
+export default TestimonialsSection;

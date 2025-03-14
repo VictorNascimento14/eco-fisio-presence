@@ -1,7 +1,7 @@
 
 import { ArrowRight, Leaf } from 'lucide-react';
 
-const Hero = () => {
+const HeroSection = () => {
   return (
     <section 
       id="início" 
@@ -62,4 +62,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default HeroSection;

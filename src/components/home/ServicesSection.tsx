@@ -41,7 +41,7 @@ const services = [
   }
 ];
 
-const Services = () => {
+const ServicesSection = () => {
   return (
     <section id="serviços" className="section-container bg-white">
       <div className="text-center mb-12">
@@ -72,4 +72,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default ServicesSection;

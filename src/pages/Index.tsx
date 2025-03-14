@@ -1,12 +1,11 @@
 
 import { useEffect } from 'react';
-import Navbar from '@/components/Navbar';
-import Hero from '@/components/Hero';
-import Services from '@/components/Services';
-import About from '@/components/About';
-import Testimonials from '@/components/Testimonials';
-import Contact from '@/components/Contact';
-import Footer from '@/components/Footer';
+import MainLayout from '@/layouts/MainLayout';
+import HeroSection from '@/components/home/HeroSection';
+import ServicesSection from '@/components/home/ServicesSection';
+import AboutSection from '@/components/home/AboutSection';
+import TestimonialsSection from '@/components/home/TestimonialsSection';
+import ContactSection from '@/components/home/ContactSection';
 
 const Index = () => {
   useEffect(() => {
@@ -53,17 +52,13 @@ const Index = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-background overflow-x-hidden">
-      <Navbar />
-      <main>
-        <Hero />
-        <Services />
-        <About />
-        <Testimonials />
-        <Contact />
-      </main>
-      <Footer />
-    </div>
+    <MainLayout>
+      <HeroSection />
+      <ServicesSection />
+      <AboutSection />
+      <TestimonialsSection />
+      <ContactSection />
+    </MainLayout>
   );
 };
 
