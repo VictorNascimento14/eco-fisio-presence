@@ -1,12 +1,68 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import { useEffect } from 'react';
+import Navbar from '@/components/Navbar';
+import Hero from '@/components/Hero';
+import Services from '@/components/Services';
+import About from '@/components/About';
+import Testimonials from '@/components/Testimonials';
+import Contact from '@/components/Contact';
+import Footer from '@/components/Footer';
 
 const Index = () => {
+  useEffect(() => {
+    // Smooth scroll for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        
+        const targetId = this.getAttribute('href');
+        if (targetId && targetId !== '#') {
+          const targetElement = document.querySelector(targetId);
+          if (targetElement) {
+            window.scrollTo({
+              top: targetElement.getBoundingClientRect().top + window.scrollY - 80,
+              behavior: 'smooth'
+            });
+          }
+        }
+      });
+    });
+    
+    // Add animations for elements when they become visible
+    const revealElements = () => {
+      const windowHeight = window.innerHeight;
+      document.querySelectorAll('.animate-fade-in-up, .animate-fade-in, .animate-slide-in-right').forEach(element => {
+        const elementTop = element.getBoundingClientRect().top;
+        if (elementTop < windowHeight - 100) {
+          element.classList.add('opacity-100');
+          element.classList.remove('opacity-0', 'translate-y-8');
+        }
+      });
+    };
+    
+    window.addEventListener('scroll', revealElements);
+    window.addEventListener('resize', revealElements);
+    
+    // Initial check
+    setTimeout(revealElements, 100);
+    
+    return () => {
+      window.removeEventListener('scroll', revealElements);
+      window.removeEventListener('resize', revealElements);
+    };
+  }, []);
+
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-background overflow-x-hidden">
+      <Navbar />
+      <main>
+        <Hero />
+        <Services />
+        <About />
+        <Testimonials />
+        <Contact />
+      </main>
+      <Footer />
     </div>
   );
 };
