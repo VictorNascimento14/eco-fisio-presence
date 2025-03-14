@@ -5,7 +5,9 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+
   server: { 
+    base: 'https://victornascimento14.github.io/eco-fisio-presence/',  
     host: "::",
     port: 8080,
   },
