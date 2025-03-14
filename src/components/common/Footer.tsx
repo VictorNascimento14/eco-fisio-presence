@@ -85,17 +85,16 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4 text-white">Contato</h3>
             <ul className="space-y-2">
               <li className="text-therapist-200">
-                Av. Paulista, 1000 - Bela Vista<br />
-                São Paulo - SP, 01310-100
+              Rua bulgária, 203 - Altos
               </li>
               <li>
-                <a href="tel:+551199999999" className="text-therapist-200 hover:text-white transition-colors">
-                  (11) 99999-9999
+                <a href="https://wa.me/5585985115513?text=Ol%C3%A1%2C%20Gostaria%20de%20ter%20mais%20informa%C3%A7%C3%B5es%20sobre%20seus%20atendimentos" className="text-therapist-200 hover:text-white transition-colors">
+                (85) 98511-5513
                 </a>
               </li>
               <li>
-                <a href="mailto:contato@fisiovida.com.br" className="text-therapist-200 hover:text-white transition-colors">
-                  contato@fisiovida.com.br
+                <a href="mailto:graziella_galvao@hotmail.com" className="text-therapist-200 hover:text-white transition-colors">
+                 graziella_galvao@hotmail.com
                 </a>
               </li>
             </ul>
@@ -112,7 +111,7 @@ const Footer = () => {
             <div className="mt-6">
               <h3 className="text-lg font-semibold mb-3 text-white">Siga-nos</h3>
               <div className="flex space-x-4">
-                <a href="#" className="p-2 bg-therapist-800 rounded-full hover:bg-therapist-700 transition-colors">
+                <a href="https://www.instagram.com/graziellagalvaofisio/" className="p-2 bg-therapist-800 rounded-full hover:bg-therapist-700 transition-colors">
                   <Instagram size={18} />
                 </a>
                 <a href="#" className="p-2 bg-therapist-800 rounded-full hover:bg-therapist-700 transition-colors">

@@ -14,7 +14,7 @@ const ContactInfo = () => {
             </div>
             <div>
               <h4 className="font-medium text-therapist-800">Endereço</h4>
-              <p className="text-muted-foreground">Av. Paulista, 1000 - Bela Vista, São Paulo - SP</p>
+              <p className="text-muted-foreground">Rua bulgária, 203 - Altos</p>
             </div>
           </div>
           
@@ -24,7 +24,7 @@ const ContactInfo = () => {
             </div>
             <div>
               <h4 className="font-medium text-therapist-800">Telefone</h4>
-              <p className="text-muted-foreground">(11) 99999-9999</p>
+              <p className="text-muted-foreground">(85) 98511-5513</p>
             </div>
           </div>
           
@@ -34,7 +34,7 @@ const ContactInfo = () => {
             </div>
             <div>
               <h4 className="font-medium text-therapist-800">Email</h4>
-              <p className="text-muted-foreground">contato@fisiovida.com.br</p>
+              <p className="text-muted-foreground">graziella_galvao@hotmail.com</p>
             </div>
           </div>
           
@@ -53,7 +53,7 @@ const ContactInfo = () => {
       
       <div className="flex-1 rounded-2xl overflow-hidden border border-therapist-100 shadow-sm">
         <iframe 
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.0976521272267!2d-46.6584976!3d-23.5651116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1656520626155!5m2!1spt-BR!2sbr" 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4940.0623254279535!2d-38.581853024124065!3d-3.7930641435063563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c74dd280f63c39%3A0x6339acd2d43988ac!2sRua%20Bulgaria%2C%20203%20-%20Manuel%20S%C3%A1tiro%2C%20Fortaleza%20-%20CE%2C%2060713-500!5e1!3m2!1spt-BR!2sbr!4v1741989903497!5m2!1spt-BR!2sbr" 
           width="100%" 
           height="100%" 
           style={{ border: 0, minHeight: '250px' }} 

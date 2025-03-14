@@ -9,7 +9,7 @@ const AboutSection = () => {
           <div className="relative z-10 mx-auto max-w-md lg:max-w-full">
             <div className="aspect-[4/5] relative rounded-2xl overflow-hidden shadow-xl">
               <img 
-                src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" 
+                src="../../../imagens/368091946_191847260415391_3931089318048044448_n.jpg" 
                 alt="Fisioterapeuta na clínica" 
                 className="w-full h-full object-cover"
               />
@@ -35,11 +35,11 @@ const AboutSection = () => {
         <div className="w-full lg:w-1/2 animate-fade-in-up">
           <div className="lg:max-w-lg">
             <h2 className="text-3xl md:text-4xl font-bold mb-6 text-therapist-950">
-              Sobre Dr. Ricardo Silva
+              Sobre Dra. Graziella Galvão
             </h2>
             
             <p className="text-therapist-800 mb-6">
-              Olá, sou o Dr. Ricardo Silva, fisioterapeuta com mais de 10 anos de experiência. Sou especializado em fisioterapia ortopédica e esportiva, com formação pela Universidade Federal de São Paulo e diversos cursos de especialização no Brasil e exterior.
+              Olá, sou a Dra. Graziella Galvão, fisioterapeuta com mais de 10 anos de experiência. Sou especializado em fisioterapia ortopédica e esportiva, com formação pela Universidade Federal de São Paulo e diversos cursos de especialização no Brasil e exterior.
             </p>
             
             <p className="text-therapist-800 mb-8">
