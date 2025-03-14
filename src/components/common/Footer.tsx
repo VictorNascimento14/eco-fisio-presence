@@ -15,7 +15,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 gap-8">
           <div>
             <a href="#" className="text-2xl font-bold text-white">
-              Fisio<span className="text-therapist-400">Vida</span>
+              Dra<span className="text-therapist-400">Graziella</span>
             </a>
             <p className="mt-3 text-therapist-200 max-w-md">
               Cuidando da sua saúde com expertise e dedicação. Nosso compromisso é com seu bem-estar e qualidade de vida.
@@ -129,7 +129,7 @@ const Footer = () => {
         </div>
         
         <div className="pt-6 border-t border-therapist-800 text-center text-therapist-400 text-sm">
-          <p>&copy; {new Date().getFullYear()} FisioVida. Todos os direitos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} Dra Graziella Galvão. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>
