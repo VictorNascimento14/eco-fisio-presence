@@ -9,7 +9,7 @@ const AboutSection = () => {
           <div className="relative z-10 mx-auto max-w-md lg:max-w-full">
             <div className="aspect-[4/5] relative rounded-2xl overflow-hidden shadow-xl">
               <img 
-                src="/dist/grazi.png"
+                src="/grazi.png"
                 alt="Fisioterapeuta na clínica" 
                 className="w-full h-full object-cover"
               />
