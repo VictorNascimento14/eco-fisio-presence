@@ -1,3 +1,4 @@
+
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import path from "path";
@@ -5,7 +6,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: '/eco-fisio-presence/',  
+  base: '/eco-fisio-presence/',  // Mantém a base path específica para GitHub Pages
   server: {  
     host: "::",
     port: 8080,

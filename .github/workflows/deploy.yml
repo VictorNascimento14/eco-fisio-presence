@@ -1,3 +1,4 @@
+
 name: Deploy to GitHub Pages
 
 on:
@@ -34,7 +35,7 @@ jobs:
       - name: Upload do site para o GitHub Pages
         uses: actions/upload-pages-artifact@v3
         with:
-          path: '/'  # 🔴 Altere se o build estiver em outra pasta
+          path: './dist'  # Corrigido: aponta para a pasta dist onde o Vite coloca os arquivos de build
 
       - name: Fazer deploy para o GitHub Pages
         id: deployment
