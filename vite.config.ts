@@ -6,7 +6,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: '/eco-fisio-presence/',  // Mantém a base path específica para GitHub Pages
+  // Removido o base path para permitir deploy no Netlify
   server: {  
     host: "::",
     port: 8080,
