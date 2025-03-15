@@ -9,7 +9,7 @@ const AboutSection = () => {
           <div className="relative z-10 mx-auto max-w-md lg:max-w-full">
             <div className="aspect-[4/5] relative rounded-2xl overflow-hidden shadow-xl">
               <img 
-                src="../../../imagens/WhatsApp Image 2025-03-14 at 20.27.10.jpeg" 
+                src="/imagens/WhatsApp Image 2025-03-14 at 20.27.10.jpeg" 
                 alt="Fisioterapeuta na clínica" 
                 className="w-full h-full object-cover"
               />
